@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Schnurrberts Website</h1>
+<table>
+    <tr>
+        <td>Igor</td>
+    </tr>
+    <tr>
+        <td>Armin</td>
+    </tr>
+    <tr>
+        <td>Tolga</td>
+    </tr>
+</table>
+
+<ol>
+    <li>Igor</li>
+</ol>
+<ol>
+    <li>Armin</li>
+</ol>
+<ol>
+    <li>Tolga</li>
+</ol>
+<form action="SENDEADRESSE" id="ft-form" method="POST" accept-charset="UTF-8">
+    <fieldset>
+        <label>
+            Name
+            <input type="text" name="Name" required>
+        </label>
+        <label>
+            E-Mail-Adresse
+            <input type="email" name="E-Mail" required>
+        </label>
+        <label>
+            Ihre Nachricht
+            <textarea rows="3" name="Nachricht" required></textarea>
+        </label>
+        <div>
+            <label>
+                <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+                Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung, einverstanden bin.
+            </label>
+        </div>
+    </fieldset>
+    <div class="btns">
+        <input type="text" name="_gotcha" value="" style="display:none;">
+        <input type="submit" value="Absenden">
+    </div>
+</form>
+</body>
+</html>
